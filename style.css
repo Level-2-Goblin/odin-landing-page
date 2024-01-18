@@ -54,6 +54,9 @@ p {
   max-width: 200px;
 }
 
+.hero-left p {
+}
+
 .hero-button {
   margin-top: 20px;
   background-color: greenyellow;
@@ -153,4 +156,13 @@ h2 {
   border-radius: 10px;
   font-size: 20px;
   font-weight: bolder;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  font-size: 20px;
+  font-weight: 800;
 }
