@@ -8,4 +8,32 @@ body {
   font-family: monospace, Impact, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  background-color: darkslateblue;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.navbox {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  padding: 1em;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbox > .logo {
+  margin-right: auto;
 }
