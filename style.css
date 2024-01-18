@@ -55,10 +55,13 @@ p {
 }
 
 .hero-button {
+  margin-top: 20px;
   background-color: greenyellow;
   width: 100px;
   height: 30px;
-  border-radius: 12%;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
   margin-bottom: 50px;
 }
 
@@ -67,13 +70,14 @@ p {
 }
 
 .header-container {
-  background-color: olivedrab;
+  background-color: rgb(119, 173, 10);
 }
 
 .second-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: slategray;
   min-height: 500px;
 }
@@ -108,7 +112,45 @@ h2 {
 
 .quote-author {
   align-self: flex-end;
-  margin-right: 500px;
-  font-size: 18;
+  margin-right: 650px;
+  font-size: 20px;
   font-weight: bold;
+}
+
+.fourth-container {
+  background-color: slategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.signup-banner {
+  background-color: greenyellow;
+  border-radius: 10px;
+  min-height: 250px;
+  margin-top: 50px 70px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-left h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.banner-left p {
+  font-size: 20px;
+  color: rgb(70, 68, 68);
+}
+
+.banner-right button {
+  height: 50px;
+  width: 150px;
+  background-color: greenyellow;
+  border: 4px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bolder;
 }
