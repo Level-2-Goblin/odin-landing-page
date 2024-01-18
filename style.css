@@ -60,12 +60,13 @@ p {
 .hero-button {
   margin-top: 20px;
   background-color: greenyellow;
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 40px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   border-radius: 10px;
   margin-bottom: 50px;
+  box-shadow: 99px;
 }
 
 .hero-button:hover {
@@ -73,7 +74,7 @@ p {
 }
 
 .header-container {
-  background-color: rgb(119, 173, 10);
+  background-color: darkslateblue;
 }
 
 .second-container {
@@ -156,6 +157,10 @@ h2 {
   border-radius: 10px;
   font-size: 20px;
   font-weight: bolder;
+}
+
+.banner-right button:hover {
+  background-color: rgb(144, 212, 41);
 }
 
 footer {
