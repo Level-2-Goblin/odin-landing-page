@@ -113,6 +113,8 @@ a:hover {
 h2 {
   margin-bottom: 50px;
   margin-top: 50px;
+  font-size: 40px;
+  text-decoration: underline 8px;
 }
 
 .cards {
